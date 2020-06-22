@@ -1,0 +1,7 @@
+name: python-okteto-sample
+image: okteto/python:3-dev
+command:
+- bash
+workdir: /opt/src/
+forward:
+  - 25000:5000
